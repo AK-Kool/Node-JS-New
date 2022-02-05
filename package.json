@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node hello.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AK-Kool/Node-JS-New/issues"
   },
-  "homepage": "https://github.com/AK-Kool/Node-JS-New#readme"
+  "homepage": "https://github.com/AK-Kool/Node-JS-New#readme",
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
 }

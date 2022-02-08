@@ -1,7 +1,20 @@
-const command = process.argv[2];
+const yargs = require('yargs');
 const log = console.log;
-if(command === 'add'){
-    log(`Adding Note..`);
-} else if(command === 'remove'){
-    log(`Removing Note...`);
-}
+
+yargs.command({
+    command : 'add',
+    describe : 'Add a new Note',
+    handler : function(){
+        log('Adding a new note.')
+    }
+})
+
+yargs.command({
+    command : 'remove',
+    describe : 'remove Note',
+    handler : function(){
+        log('Removing a new note.')
+    }
+})
+
+log(yargs.argv);

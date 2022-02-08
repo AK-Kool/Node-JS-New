@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "node-js",
   "version": "1.0.0",
   "description": "",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/AK-Kool/Node-JS-New#readme",
   "dependencies": {
+    "chalk": "^5.0.0",
     "validator": "^13.7.0"
   }
 }
